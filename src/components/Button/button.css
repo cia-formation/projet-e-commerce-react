@@ -1,0 +1,30 @@
+.button {
+    width: 100%;
+    background-color: #FEAF00;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 5px 0;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button-rounded {
+    border-radius: 50px;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    text-transform: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    transition: all 0.3s ease-in-out;
+}
