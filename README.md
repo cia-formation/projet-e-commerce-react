@@ -1,12 +1,69 @@
-# React + Vite
+<div align="center">
+  <div align="center">
+    <img src="https://img.shields.io/badge/-REACT-black?style=for-the-badge&logoColor=white&logo=react&color=blue" alt="react" />
+  </div>
+  <h3 align="center">Une application web de e-commerce</h3>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📋 Table des matières
 
-Currently, two official plugins are available:
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Technologies utilisées](#tech-stack)
+3. 🤸 [Démarrage rapide](#quick-start)
+4. 🚀 [Plus d'infos](#more)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚨 Tutoriel
 
-## Expanding the ESLint configuration
+Suivez notre tutoriel pour apprendre à créer des projets comme celui-ci, étape par étape,  
+de manière accessible aux débutants !
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[![Tutoriel](https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d)](#)
+
+## 🤖 Introduction  
+
+Ce projet a été développé avec **ReactJS (utilisant Vite)**.  
+Son principal objectif est de démontrer les compétences du développeur en matière de  
+compréhension de base du développement web avec ReactJS.
+
+## ⚙️ Technologies utilisées
+
+- **ReactJS**
+
+## 🤸 Démarrage rapide
+
+Suivez ces étapes pour configurer le projet localement sur votre machine.  
+
+### **Prérequis**
+
+Assurez-vous d'avoir installé les éléments suivants sur votre machine :
+
+- Un navigateur web, ex : [Chrome](https://www.google.com/intl/fr/chrome/)  
+- Un éditeur de texte, ex : [VSCode](https://code.visualstudio.com/)  
+
+### **Cloner le dépôt**  
+
+```bash
+git clone https://github.com/cia-formation/projet-e-commerce-react.git
+```
+
+### **Exécuter le projet**
+
+Ouvrez le projet sur vscode, ensuite ouvrez le terminal et exécutez la commande suivante :
+
+```bash
+npm install
+```
+
+> Ceci va installer toutes les dépendances nécessaires pour le projet.
+
+Ensuite, exécutez la commande suivante pour lancer le projet :
+
+```bash
+npm run dev
+```
+
+> Ouvrez [localhost:5173](http://localhost:5173) dans votre navigateur web pour accéder au projet.
+
+## 🚀 Plus d'infos
+
+Pour plus d'information sur la specialite *developpement web* chez CIA Formation, consultez le [site web de la formation](https://cia-formation.com/formations/formation-dqp/dqp-developpement-d-applications-web).
