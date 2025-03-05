@@ -1,0 +1,78 @@
+/* OUTLINED LABEL INPUT TEXT (DEFAULT) */
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.input-text label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #6C6C6C;
+}
+
+.input-text:focus-within label {
+    color: #FEAF00;
+}
+
+.input-text input,
+.input-text textarea {
+    border: 1px solid #E5E5E5;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    padding: 15px;
+    color: black;
+}
+
+.input-text input::placeholder,
+.input-text textarea::placeholder {
+    color: #CDCDCD;
+}
+
+.input-text input:focus,
+.input-text textarea:focus {
+    outline: none;
+    border: 1px solid #FEAF00;
+}
+
+
+/* INLINED LABEL INPUT TEXT */
+
+.input-text-inlined {
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    position: relative;
+}
+
+.input-text-inlined label {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #ACACAC;
+
+}
+
+.input-text-inlined input {
+    padding: 0;
+    background-color: inherit;
+    border: none;
+    width: calc(100% - 50px);
+    height: 100%;
+    padding: 25px;
+    color: #000000;
+}
+
+.input-text-inlined input::placeholder {
+    color: #000000;
+}
