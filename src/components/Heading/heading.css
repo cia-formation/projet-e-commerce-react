@@ -1,0 +1,19 @@
+.heading {
+    display: grid;
+    grid-template-columns: 0.65fr 20fr;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.heading span {
+    background-color: #F8D442;
+}
+
+.heading h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39.01px;
+
+}
