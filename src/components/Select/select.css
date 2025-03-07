@@ -1,0 +1,15 @@
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #EBEDEC;
+    padding: 7px 14px;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.select:hover {
+    background-color: #E4E7E2;
+}

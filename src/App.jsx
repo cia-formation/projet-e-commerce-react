@@ -7,6 +7,7 @@ import IconLink from './components/IconLink/IconLink'
 import { dashboard, logout, products } from './assets/icons'
 import Typography from './components/Typography/Typography'
 import Stars from './components/Stars/Stars'
+import Select from './components/Select/Select'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Typography text={'Hello world !'} />
       <Typography text={'This is a checked text'} isChecked />
       <Stars rate={4} number={4.5} />
+      <Select label={'Select'} />
     </main>
   )
 }
