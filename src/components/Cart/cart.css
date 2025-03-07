@@ -1,0 +1,21 @@
+.cart{
+    position: relative;
+}
+
+.cart .icon {
+    height: 100%;
+    width: 100%;
+}
+
+.cart span {
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    background-color: #1D364D;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50%;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+}

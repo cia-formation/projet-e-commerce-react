@@ -7,5 +7,7 @@ import check from './check.svg'
 import star from './star.svg'
 import halfStar from './half-star.svg'
 import arrowDown from './arrow-down.svg'
+import cart from './cart.svg'
+import notification from './notification.svg'
 
-export {dashboard, logout, products, save, update, check, star, halfStar, arrowDown}
+export {dashboard, logout, products, save, update, check, star, halfStar, arrowDown, cart, notification}

@@ -8,6 +8,9 @@ import { dashboard, logout, products } from './assets/icons'
 import Typography from './components/Typography/Typography'
 import Stars from './components/Stars/Stars'
 import Select from './components/Select/Select'
+import Cart from './components/Cart/Cart'
+import User from './components/User/User'
+import Notification from './components/Notification/Notification'
 
 function App() {
 
@@ -27,6 +30,9 @@ function App() {
       <Typography text={'This is a checked text'} isChecked />
       <Stars rate={4} number={4.5} />
       <Select label={'Select'} />
+      <Cart indicator={3} />
+      <User userName={'John Doe'} />
+      <Notification />
     </main>
   )
 }
