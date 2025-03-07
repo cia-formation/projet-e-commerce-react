@@ -4,4 +4,11 @@
     font-size: 16px;
     line-height: 27.2px;
     color: #667085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typography .icon {
+    margin-right: 10px;
 }

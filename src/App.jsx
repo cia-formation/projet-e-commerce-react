@@ -6,6 +6,7 @@ import Heading from './components/Heading/Heading'
 import IconLink from './components/IconLink/IconLink'
 import { dashboard, logout, products } from './assets/icons'
 import Typography from './components/Typography/Typography'
+import Stars from './components/Stars/Stars'
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
       <IconLink path={'#'} label={'Produits'} icon={products}/>
       <IconLink path={'#'} label={'Logout'} icon={logout} isReversed/>
       <Typography text={'Hello world !'} />
+      <Typography text={'This is a checked text'} isChecked />
+      <Stars rate={4} number={4.5} />
     </main>
   )
 }

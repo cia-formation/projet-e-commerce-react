@@ -1,9 +1,14 @@
 import PropTypes from 'prop-types'
 import './typography.css'
+import { check } from '../../assets/icons'
 
-const Typography = ({text, color, fontSize, weight, lineHeight, decoration}) => {
+const Typography = ({text, color, fontSize, weight, lineHeight, decoration, isChecked}) => {
     return (
         <p className="typography" style={{color: color, fontSize: fontSize, fontWeight: weight, lineHeight: lineHeight, textDecoration: decoration}}>
+            {
+                isChecked &&
+                <img src={check} alt="check" className="icon"/>
+            }
             {text}
         </p>
     )
