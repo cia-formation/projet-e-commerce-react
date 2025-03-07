@@ -5,6 +5,7 @@ import Logo from './components/Heading/Heading'
 import Heading from './components/Heading/Heading'
 import IconLink from './components/IconLink/IconLink'
 import { dashboard, logout, products } from './assets/icons'
+import Typography from './components/Typography/Typography'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <IconLink path={'#'} label={'Dashboard'} icon={dashboard} isActive/>
       <IconLink path={'#'} label={'Produits'} icon={products}/>
       <IconLink path={'#'} label={'Logout'} icon={logout} isReversed/>
+      <Typography text={'Hello world !'} />
     </main>
   )
 }
