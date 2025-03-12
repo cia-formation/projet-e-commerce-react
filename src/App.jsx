@@ -11,6 +11,8 @@ import Select from './components/Select/Select'
 import Cart from './components/Cart/Cart'
 import User from './components/User/User'
 import Notification from './components/Notification/Notification'
+import Product from './components/Product/Product'
+import { shoes } from './assets/images'
 
 function App() {
 
@@ -32,7 +34,10 @@ function App() {
       <Select label={'Select'} />
       <Cart indicator={3} />
       <User userName={'John Doe'} />
-      <Notification />
+      <Notification hasNew />
+      <Product image={shoes}/>
+      
+
     </main>
   )
 }
