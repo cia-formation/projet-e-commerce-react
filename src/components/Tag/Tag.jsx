@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types'
 import './tag.css'
 
-const Tag = ({ icon, value }) => {
+const Tag = ({ icon, value, color }) => {
     return (
-        <div>
+        <div className="tag" style={{backgroundColor: `${color}30`}}>
             <img src={icon} alt="tag" className="icon" />
             {
                 value &&
-                <span>{value}</span>
+                <span style={{color: color}}>{value}</span>
             }
         </div>
     )
@@ -15,7 +15,8 @@ const Tag = ({ icon, value }) => {
 
 Tag.protoTypes = {
     icon: PropTypes.string.isRequired,
-    value: PropTypes.string
+    value: PropTypes.string,
+    color: PropTypes.string,
 }
 
 export default Tag

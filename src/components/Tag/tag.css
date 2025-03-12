@@ -1,0 +1,15 @@
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 7px 10px;
+    border-radius: 27px;
+}
+
+.tag span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+}

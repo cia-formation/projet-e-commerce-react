@@ -4,7 +4,7 @@ import InputText from './components/InputText/InputText'
 import Logo from './components/Heading/Heading'
 import Heading from './components/Heading/Heading'
 import IconLink from './components/IconLink/IconLink'
-import { dashboard, logout, products } from './assets/icons'
+import { comment, dashboard, logout, products, starAlt } from './assets/icons'
 import Typography from './components/Typography/Typography'
 import Stars from './components/Stars/Stars'
 import Select from './components/Select/Select'
@@ -13,6 +13,7 @@ import User from './components/User/User'
 import Notification from './components/Notification/Notification'
 import Product from './components/Product/Product'
 import { shoes } from './assets/images'
+import Tag from './components/Tag/Tag'
 
 function App() {
 
@@ -36,7 +37,8 @@ function App() {
       <User userName={'John Doe'} />
       <Notification hasNew />
       <Product image={shoes}/>
-      
+      <Tag icon={starAlt} value={'4.8'} color={'#D48D3B'} />
+      <Tag icon={comment} value={'67 Reviews'} color={'#3A4980'} />
 
     </main>
   )
