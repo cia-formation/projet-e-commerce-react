@@ -15,14 +15,14 @@ const Product = ({image}) => {
                 <img src={like} alt="like image" />
             </div>
             <div className="info">
-                <div>
-                    <Typography text={'67 500 FCFA'} />
+                <div className='stats'>
+                    <Typography text={'67 500 FCFA'} fontSize={'18px'} fontWeight={700} color={'#344054'}/>
                     <Stars number={4.5} rate={121}/>
                 </div>
-                <Typography text={'TDX Sinkers'} />
-                <Typography text={'5 types of shoos available'} />
+                <Typography text={'TDX Sinkers'} color={'#344054'} />
+                <Typography text={'5 types of shoos available'} color={'#344054'} />
 
-                <Button label={'Ajouter au panier'} isRounded customBg={'#3A4980'} />
+                <Button label={'Ajouter au panier'} isRounded customBg={'#3A4980'} margin={'30px 0 0 0'} />
             </div>
         </div>
     )
