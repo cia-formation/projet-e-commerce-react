@@ -3,6 +3,7 @@
     <img src="https://img.shields.io/badge/-REACT-black?style=for-the-badge&logoColor=white&logo=react&color=blue" alt="react" />
   </div>
   <h3 align="center">Une application web de e-commerce</h3>
+  <a align="center" href='https://www.figma.com/design/Rd3Lk6V9Ch4ez6L3WPM2BR/CRUD-Produits-%2B-Frontend?node-id=102-7257&t=WRKOXXOJlMpz8Qe9-0'>🎨 Lien figma</a>
 </div>
 
 ### 📋 Table des matières
