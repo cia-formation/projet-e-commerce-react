@@ -1,0 +1,24 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.pagination span {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #1D364D;
+    border: 1px solid #F3F3F3;
+    padding: 17.5px 20px;
+    background-color: white;
+}
+
+.pagination span.active {
+    font-weight: 600;
+    background: linear-gradient(75.04deg, #F4E8F3 0%, #F3EFF6 52.07%, #EEE0F9 102.02%);
+}
