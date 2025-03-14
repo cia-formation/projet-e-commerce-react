@@ -15,6 +15,7 @@ import Product from './components/Product/Product'
 import { shoes } from './assets/images'
 import Tag from './components/Tag/Tag'
 import Pagination from './components/Pagination/Pagination'
+import Hero from './components/Hero/Hero'
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
       <Tag icon={starAlt} value={'4.8'} color={'#D48D3B'} />
       <Tag icon={comment} value={'67 Reviews'} color={'#3A4980'} />
       <Pagination pages={7} activePage={1}/>
+      <Hero />
     </main>
   )
 }
