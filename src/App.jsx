@@ -16,18 +16,21 @@ import { shoes } from './assets/images'
 import Tag from './components/Tag/Tag'
 import Pagination from './components/Pagination/Pagination'
 import Hero from './components/Hero/Hero'
+import Sidebar from './layouts/Sidebar/Sidebar'
 
 function App() {
 
   return (
     <main className='app'>
-      <InputText label="Nom" placeholder="John Doe" name="name" type="text" />
+      {/* <InputText label="Nom" placeholder="John Doe" name="name" type="text" />
       <InputText label="Email" placeholder="john@doe.com" name="email" type="email" labelInlined/>
       <InputText label="Message" placeholder="john@doe.com" name="message" type="textarea" />
       <Button label={'Submit'} />
       <Button label={'Ajouter au panier'} customBg={'#3A4980'} isRounded/>
-      <Heading label={'SUPPRESSION'} customColor={'#EA4637'} />
+
+      <Heading label={'AJOUTER'} customColor={'#EA4637'} />
       <Heading label={'SUPPRESSION'}  />
+
       <IconLink path={'#'} label={'Dashboard'} icon={dashboard} isActive/>
       <IconLink path={'#'} label={'Produits'} icon={products}/>
       <IconLink path={'#'} label={'Logout'} icon={logout} isReversed/>
@@ -42,7 +45,8 @@ function App() {
       <Tag icon={starAlt} value={'4.8'} color={'#D48D3B'} />
       <Tag icon={comment} value={'67 Reviews'} color={'#3A4980'} />
       <Pagination pages={7} activePage={1}/>
-      <Hero />
+      <Hero /> */}
+      <Sidebar />
     </main>
   )
 }

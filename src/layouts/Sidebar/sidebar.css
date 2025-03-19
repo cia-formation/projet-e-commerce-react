@@ -1,0 +1,29 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100vh;
+    width: 350px;
+    background-color: #F2EAE1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.sidebar aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sidebar aside .profile {
+    display: grid;
+    gap: 10px;
+}
+.sidebar aside .profile img{
+    border-radius: 50%;
+}
