@@ -1,0 +1,33 @@
+.enregistrement-produit {
+    display: flex;
+    width: 100%;
+}
+
+.enregistrement-produit .content {
+    width: calc(100% - 350px);
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+.enregistrement-produit .content section{
+    padding: 0 30px 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.enregistrement-produit .content section .names,
+.enregistrement-produit .content section .prices{
+    display: flex;
+    gap: 50px;
+}
+.enregistrement-produit .content section .stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.enregistrement-produit .content section .stats .numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}

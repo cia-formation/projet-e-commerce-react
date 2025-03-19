@@ -17,6 +17,7 @@ import Tag from './components/Tag/Tag'
 import Pagination from './components/Pagination/Pagination'
 import Hero from './components/Hero/Hero'
 import Sidebar from './layouts/Sidebar/Sidebar'
+import EnregistrementProduit from './pages/EnregistrementProduit/EnregistrementProduit'
 
 function App() {
 
@@ -46,7 +47,7 @@ function App() {
       <Tag icon={comment} value={'67 Reviews'} color={'#3A4980'} />
       <Pagination pages={7} activePage={1}/>
       <Hero /> */}
-      <Sidebar />
+      <EnregistrementProduit />
     </main>
   )
 }

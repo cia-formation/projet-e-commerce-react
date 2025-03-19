@@ -12,6 +12,8 @@ import cart from './cart.svg'
 import like from './like.svg'
 import notification from './notification.svg'
 import comment from './comment.svg'
+import bell from './bell.svg'
+import arrowLeft from './arrow-left.svg'
 
 
-export {dashboard, logout, products, save, update, check, star, starAlt, halfStar, arrowDown, cart, notification, like, comment}
+export {dashboard, logout, products, save, update, check, star, starAlt, halfStar, arrowDown, cart, notification, like, comment, bell, arrowLeft}
