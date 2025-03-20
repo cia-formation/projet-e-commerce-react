@@ -6,8 +6,11 @@ import Typography from "../../components/Typography/Typography"
 
 
 import './signin.css'
+import { useNavigate } from "react-router-dom"
 
 const SignIn = () => {
+    const navigate = useNavigate();
+
     return (
         <div className='signin '>
 
@@ -18,7 +21,7 @@ const SignIn = () => {
                 <div className="signin-form">
                     <InputText label="Email" placeholder="Email" name="email" type="email" />
                     <InputText label="Mot de passe" placeholder="Mot de passe" name="password" type="password" />
-                    <Button label={'SIGN IN'} width={'415px'} />
+                    <Button label={'SIGN IN'} width={'415px'} handleClick={() => navigate('/enregistrement-produit')}/>
                 </div>
             </div>
 
