@@ -1,0 +1,50 @@
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+}
+
+.signin signin-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.signin signin-form input{
+    width: 100%;
+}
+
+.signin signin-form button{
+    width: 100%;
+}
+
+.signin signin-form input, .signin signin-form button{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.first{
+    background-color: white;
+    padding: 50px 30px;
+    
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
