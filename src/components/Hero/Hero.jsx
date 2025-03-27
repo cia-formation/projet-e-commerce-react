@@ -11,9 +11,9 @@ const Hero = () => {
                 <Button label={'Buy Now'} customBg={'#3A4980'} customColor={'white'} isRounded width={'auto'} />
             </div>
 
-            <dic className="image">
+            <div className="image">
                 <img src={hero} alt="Hero image" />
-            </dic>
+            </div>
         </div>
     )
 }

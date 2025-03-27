@@ -13,8 +13,6 @@ const SignIn = () => {
 
     return (
         <div className='signin '>
-
-          
             <div className="first">
                 <Heading label={'MA BOUTIQUE'} />
                 <Typography text={'CONNEXION'} fontWeight={600} fontSize={'22px'} color={'black'} />
@@ -24,8 +22,6 @@ const SignIn = () => {
                     <Button label={'SIGN IN'} width={'415px'} handleClick={() => navigate('/enregistrement-produit')}/>
                 </div>
             </div>
-
-
         </div>
     )
 }
