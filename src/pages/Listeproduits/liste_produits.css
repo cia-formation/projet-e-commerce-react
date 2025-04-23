@@ -1,0 +1,17 @@
+.liste-produits {
+    display: flex;
+    width: 100%;
+}
+
+.liste-produits .content {
+    width: calc(100% - 350px);
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+.liste-produits .content section{
+    padding: 0 30px 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}

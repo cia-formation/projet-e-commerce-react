@@ -21,7 +21,7 @@ const SignIn = () => {
                 <div className="signin-form">
                     <InputText label="Email" placeholder="Email" name="email" type="email" />
                     <InputText label="Mot de passe" placeholder="Mot de passe" name="password" type="password" />
-                    <Button label={'SIGN IN'} width={'415px'} handleClick={() => navigate('/enregistrement-produit')}/>
+                    <Button label={'SIGN IN'} width={'415px'} handleClick={() => navigate('/liste-produits')}/>
                 </div>
             </div>
 
